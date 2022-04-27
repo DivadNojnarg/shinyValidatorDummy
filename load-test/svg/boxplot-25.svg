@@ -42,6 +42,8 @@
 <polyline points='43.04,49.37 282.52,49.37 ' style='stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;' />
 <polyline points='162.78,269.35 162.78,22.49 ' style='stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;' />
 <circle cx='162.78' cy='33.71' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
+<circle cx='162.78' cy='33.71' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
+<circle cx='162.78' cy='33.71' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
 <line x1='162.78' y1='252.91' x2='162.78' y2='252.91' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <line x1='162.78' y1='258.12' x2='162.78' y2='258.12' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polygon points='87.94,252.91 87.94,258.12 237.62,258.12 237.62,252.91 87.94,252.91 ' style='stroke-width: 1.07; stroke: #333333; fill: #7FC97F;' />
