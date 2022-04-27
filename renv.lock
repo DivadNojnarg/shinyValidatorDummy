@@ -4,7 +4,7 @@
     "Repositories": [
       {
         "Name": "CRAN",
-        "URL": "https://cran.rstudio.com"
+        "URL": "https://packagemanager.rstudio.com/all/__linux__/focal/latest"
       }
     ]
   },
@@ -16,6 +16,22 @@
       "Repository": "CRAN",
       "Hash": "9305444d113b052089eba3694047d42d",
       "Requirements": []
+    },
+    "DT": {
+      "Package": "DT",
+      "Version": "0.22",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "fc53164de9ee32692eef6fdd14115381",
+      "Requirements": [
+        "crosstalk",
+        "htmltools",
+        "htmlwidgets",
+        "jquerylib",
+        "jsonlite",
+        "magrittr",
+        "promises"
+      ]
     },
     "MASS": {
       "Package": "MASS",
@@ -356,6 +372,19 @@
         "jsonlite",
         "openssl",
         "sys"
+      ]
+    },
+    "crosstalk": {
+      "Package": "crosstalk",
+      "Version": "1.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "6aa54f69598c32177e920eb3402e8293",
+      "Requirements": [
+        "R6",
+        "htmltools",
+        "jsonlite",
+        "lazyeval"
       ]
     },
     "curl": {
@@ -849,6 +878,17 @@
         "testthat",
         "xml2",
         "xmlparsedata"
+      ]
+    },
+    "lubridate": {
+      "Package": "lubridate",
+      "Version": "1.8.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "2ff5eedb6ee38fb1b81205c73be1be5a",
+      "Requirements": [
+        "cpp11",
+        "generics"
       ]
     },
     "magrittr": {
@@ -1652,6 +1692,23 @@
         "cli",
         "glue",
         "rlang"
+      ]
+    },
+    "vdiffr": {
+      "Package": "vdiffr",
+      "Version": "1.0.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c45dc68b6ef4d784c5df6f5bbc5f7f39",
+      "Requirements": [
+        "cpp11",
+        "diffobj",
+        "glue",
+        "htmltools",
+        "lifecycle",
+        "rlang",
+        "testthat",
+        "xml2"
       ]
     },
     "viridisLite": {
