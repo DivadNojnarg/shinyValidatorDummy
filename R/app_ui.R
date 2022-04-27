@@ -10,7 +10,15 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      h1("shinyValidatorDummy")
+      checkboxGroupInput(
+        "variable",
+        "Variables to show:",
+        c(
+          "Cylinders" = "cyl",
+          "Transmission" = "am",
+          "Gears" = "gear")
+      ),
+      tableOutput("data")
     )
   )
 }

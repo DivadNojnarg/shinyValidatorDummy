@@ -6,4 +6,7 @@
 #' @noRd
 app_server <- function(input, output, session) {
   # Your application server logic
+  output$data <- renderTable({
+    mtcars[, c("mpg", input$variable), drop = FALSE]
+  }, rownames = TRUE)
 }
