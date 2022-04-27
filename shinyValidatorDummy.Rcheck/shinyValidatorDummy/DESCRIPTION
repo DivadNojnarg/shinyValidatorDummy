@@ -17,7 +17,7 @@ Config/testthat/edition: 3
 URL: https://github.com/DivadNojnarg/shinyValidatorDummy
 BugReports: https://github.com/DivadNojnarg/shinyValidatorDummy/issues
 NeedsCompilation: no
-Packaged: 2022-04-27 22:52:03 UTC; runner
+Packaged: 2022-04-27 22:53:07 UTC; runner
 Author: firstname lastname [aut, cre]
 Maintainer: firstname lastname <your@email.com>
-Built: R 4.2.0; ; 2022-04-27 22:52:05 UTC; unix
+Built: R 4.2.0; ; 2022-04-27 22:53:09 UTC; unix
